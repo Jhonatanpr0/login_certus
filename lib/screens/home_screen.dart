@@ -22,14 +22,14 @@ class HomeScreen extends StatelessWidget {
         ),
         body: Center(
           child: Column(
-            children: [
+            children: const [
               SizedBox(height: 80),
-              const CircleAvatar(
+              CircleAvatar(
                 maxRadius: 100,
                 backgroundImage: NetworkImage(
                     'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'),
               ),
-              const Text('Estas en el Home Screen'),
+              Text('Estas en el Home Screen'),
             ],
           ),
         ));
