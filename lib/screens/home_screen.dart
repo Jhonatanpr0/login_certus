@@ -16,7 +16,7 @@ class HomeScreen extends StatelessWidget {
               onPressed: () async {
                 await authService.signOut();
               },
-              icon: Icon(Icons.logout),
+              icon: const Icon(Icons.logout),
             ),
           ],
         ),
